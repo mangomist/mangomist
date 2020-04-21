@@ -1,0 +1,180 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway','HelveticaNeue-Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande', sans-serif !important;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("images/left-arrow.png") !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url("images/right-arrow.png") !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 36px !important;
+	height: 24px !important;
+}
+
+.carousel-caption {
+	top: 50%;
+	bottom: unset !important;
+	transform: translateY(-50%);
+}
+
+.mangomist-gallery .carousel-indicators {
+	display: none;
+}
+
+.carousel-indicators li {
+	border: none;
+	background: url("images/masterslider-calluna-leftarrow.png") no-repeat center !important;
+}
+
+.carousel-indicators li.active {
+	background: url("images/masterslider-calluna-bullet-selected.png") no-repeat center !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 3.5% !important;
+	opacity: 1;
+}
+
+.fixed-header {
+	padding: 10px 0;
+	top: 0;
+	position: fixed !important;
+	background: rgba(15,36,83,0.85);
+}
+
+#site-logo img {
+	-webkit-transition: all .10s;
+	-moz-transition: all .10s;
+	-o-transition: all .10s;
+	transition: all .10s;
+}
+
+.fixed-header #site-logo img {
+	width: 50px;
+	-webkit-transition: all .10s;
+	-moz-transition: all .10s;
+	-o-transition: all .10s;
+	transition: all .10s;
+}
+
+.fixed-header .nav-menu {
+	margin: 0 !important;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+
+.fixed-header .nav-menu ul li a {
+	font-size: .9rem !important;
+}
+
+#menu-mangomistmenu {
+	margin-bottom: 0;
+}
+
+.carousel-caption h5 {
+	font-weight: 500;
+	text-align: center;
+	line-height: normal;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 4rem;
+}
+
+.carousel-caption h5 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	opacity: 1 !important;
+}
+
+.container-fluid {
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.home-carousel .carousel-control-prev {
+	left: 40px;
+}
+
+.home-carousel .carousel-control-next {
+	right: 40px;
+}
+
+.mangomist-room-carousel .carousel-control-prev {
+	left: 6px;
+}
+
+.mangomist-room-carousel .carousel-control-next {
+	right: 6px;
+}
+
+.mangomist-gallery .carousel-control-prev {
+	left: 40px;
+}
+
+.mangomist-gallery .carousel-control-next {
+	right: 40px;
+}
+
+.variable-width {
+	overflow: hidden;
+	padding-top: 30px;
+	position: relative;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+.slick-prev, .slick-next {
+	font-size: 1rem;
+	width: 40px;
+	height: 40px;
+	border: none;
+	background: transparent;
+	font-size: 0;
+	color: #b6b6b6;
+}
+
+.slick-prev:focus, .slick-next:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.slick-prev {
+	background: url("images/left-arrow-gray.png") no-repeat left center !important;
+	position: absolute;
+	bottom: 0;
+	left: 4px;
+}
+
+.slick-next {
+	background: url("images/right-arrow-gray.png") no-repeat left center !important;
+	position: absolute;
+	bottom: 0;
+	right: 26px;
+}
+
+.review-info {
+	color: #fff !important;
+}
